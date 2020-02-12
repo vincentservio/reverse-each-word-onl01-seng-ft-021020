@@ -5,4 +5,4 @@ def reverse_each_word(sentence)
 end
 
 new_string = string.collect{|i| i.reverse}
-new_string.
+new_string.to_s
