@@ -4,4 +4,5 @@ def reverse_each_word(sentence)
   binding.pry
 end
 
-string.collect{|i| i.reverse}
+new_string = string.collect{|i| i.reverse}
+new_string.
